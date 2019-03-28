@@ -35,7 +35,7 @@ def sum_array(int)
 end
 
 def add_s(array)
-  (0 + 2..array.length-1).step {|word| word << "s"}
+  (0 + 2..array.length-1).step(1) {|word| word << "s"}
 end
     
     
